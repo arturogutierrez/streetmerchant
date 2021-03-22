@@ -3,7 +3,9 @@ import {Store} from './store';
 export const HarrisTechnology: Store = {
   backoffStatusCodes: [403, 429],
   currency: '$',
+  lowBandwidth: false,
   labels: {
+
     inStock: {
       container:
         '#content_tab-description > div.desc2 > p.product-availability',

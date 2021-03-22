@@ -2,7 +2,9 @@ import {Store} from './store';
 
 export const PCComponentes: Store = {
   currency: '€',
+  lowBandwidth: true,
   labels: {
+
     inStock: {
       container: '#btnsWishAddBuy',
       text: ['Comprar'],

@@ -4,7 +4,9 @@ import {parseCard} from './helpers/card';
 
 export const Very: Store = {
   currency: '£',
+  lowBandwidth: false,
   labels: {
+
     inStock: {
       container: '.stockMessaging .indicator',
       text: ['available', 'low stock'],

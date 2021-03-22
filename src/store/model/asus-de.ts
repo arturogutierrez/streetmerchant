@@ -2,7 +2,9 @@ import {Store} from './store';
 
 export const AsusDe: Store = {
   currency: '€',
+  lowBandwidth: false,
   labels: {
+
     inStock: {
       container: '.buybox--button',
       text: ['in den warenkorb'],

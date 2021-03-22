@@ -3,7 +3,9 @@ import {getProductLinksBuilder} from './helpers/card';
 
 export const Ebuyer: Store = {
   currency: '£',
+  lowBandwidth: false,
   labels: {
+
     inStock: {
       container: '.purchase-info__cta',
       text: ['add to basket', 'pre-order'],

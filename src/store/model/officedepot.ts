@@ -2,7 +2,9 @@ import {Store} from './store';
 
 export const OfficeDepot: Store = {
   currency: '$',
+  lowBandwidth: false,
   labels: {
+
     captcha: {
       container: 'body',
       text: ['please verify you are a human'],

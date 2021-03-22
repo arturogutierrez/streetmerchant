@@ -3,7 +3,9 @@ import {Store} from './store';
 export const Dcomp: Store = {
   backoffStatusCodes: [403, 429],
   currency: '$',
+  lowBandwidth: false,
   labels: {
+
     inStock: {
       container: '#cart-info > button.btn.addToCart',
       text: ['Add to', ''],

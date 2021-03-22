@@ -2,7 +2,9 @@ import {Store} from './store';
 
 export const Xbox: Store = {
   currency: '$',
+  lowBandwidth: false,
   labels: {
+
     outOfStock: {
       container:
         '[class="BundleBuilderHeader-module__checkoutButton___3UyEq w-100 bg-light-green btn btn-primary"]',

@@ -2,7 +2,9 @@ import {Store} from './store';
 
 export const Azerty: Store = {
   currency: '€',
+  lowBandwidth: false,
   labels: {
+
     inStock: {
       container: '.orderdelay',
       text: ['Volgende werkdag in huis', '1 werkdag', '2-3 werkdagen'],

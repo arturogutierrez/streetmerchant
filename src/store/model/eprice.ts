@@ -2,7 +2,9 @@ import {Store} from './store';
 
 export const Eprice: Store = {
   currency: '€',
+  lowBandwidth: false,
   labels: {
+
     inStock: {
       container: '.topSideDx',
       text: ['disponibile', 'pochi pezzi'],

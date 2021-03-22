@@ -3,7 +3,9 @@ import {Store} from './store';
 export const Scorptec: Store = {
   backoffStatusCodes: [403, 429],
   currency: '$',
+  lowBandwidth: false,
   labels: {
+
     inStock: {
       container: '#delivery-wrapper > div.product-stock-text',
       text: ['in stock'],

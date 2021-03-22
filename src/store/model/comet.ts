@@ -2,7 +2,9 @@ import {Store} from './store';
 
 export const Comet: Store = {
   currency: '€',
+  lowBandwidth: false,
   labels: {
+
     inStock: {
       container: '.caption',
       text: ['Aggiungi al carrello'],

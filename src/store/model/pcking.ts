@@ -2,7 +2,9 @@ import {Store} from './store';
 
 export const PCKing: Store = {
   currency: '€',
+  lowBandwidth: false,
   labels: {
+
     inStock: {
       container: '.es_order_box-article_detail',
       text: ['sofort lieferbar [Versand]', 'abholbereit [PC-KING]'],

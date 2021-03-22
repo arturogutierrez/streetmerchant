@@ -3,7 +3,9 @@ import {getProductLinksBuilder} from './helpers/card';
 
 export const Coolmod: Store = {
   currency: '€',
+  lowBandwidth: true,
   labels: {
+
     inStock: {
       container: '#productBuyButtons',
       text: ['COMPRAR'],

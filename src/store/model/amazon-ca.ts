@@ -2,7 +2,9 @@ import {Store} from './store';
 
 export const AmazonCa: Store = {
   currency: '$',
+  lowBandwidth: false,
   labels: {
+
     captcha: {
       container: 'body',
       text: ['enter the characters you see below'],

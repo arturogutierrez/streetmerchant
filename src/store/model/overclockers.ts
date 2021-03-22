@@ -3,7 +3,9 @@ import {getProductLinksBuilder} from './helpers/card';
 
 export const Overclockers: Store = {
   currency: '£',
+  lowBandwidth: false,
   labels: {
+
     inStock: {
       container: '#detailbox',
       text: ['add to basket', 'in stock'],

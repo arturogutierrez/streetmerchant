@@ -3,7 +3,9 @@ import {Store} from './store';
 export const Computeruniverse: Store = {
   backoffStatusCodes: [503],
   currency: '€',
+  lowBandwidth: false,
   labels: {
+
     inStock: {
       container: '.availability',
       text: [

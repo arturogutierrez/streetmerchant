@@ -2,7 +2,9 @@ import {Store} from './store';
 
 export const GamestopDE: Store = {
   currency: '€',
+  lowBandwidth: false,
   labels: {
+
     inStock: [
       {
         container: '#btnAddToCart',

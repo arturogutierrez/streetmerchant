@@ -2,7 +2,9 @@ import {Store} from './store';
 
 export const ProshopNO: Store = {
   currency: 'kr.',
+  lowBandwidth: false,
   labels: {
+
     inStock: {
       container:
         '#siteContainer > div.site-container-fullwidth > div > div.row.site-content-table > div.col-sm-9.pull-right > div > div > div > div:nth-child(2) > div.col-xs-12.col-sm-7 > div.row.site-row-margin-top-small > div.col-md-5 > form > button',

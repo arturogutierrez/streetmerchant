@@ -3,7 +3,9 @@ import {Store} from './store';
 export const Expert: Store = {
   backoffStatusCodes: [403, 429, 503],
   currency: '€',
+  lowBandwidth: false,
   labels: {
+
     inStock: [
       {
         container: 'span.widget-ArticleStatus-buttonText',

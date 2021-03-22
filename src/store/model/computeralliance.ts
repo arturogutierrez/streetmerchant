@@ -3,7 +3,9 @@ import {Store} from './store';
 export const ComputerAlliance: Store = {
   backoffStatusCodes: [403, 429],
   currency: '$',
+  lowBandwidth: false,
   labels: {
+
     inStock: {
       container:
         '#main > div.col-md-12 > div:nth-child(1) > div.col-sm-7.product-information > div:nth-child(5) > div > ul > li:nth-child(1) > a',

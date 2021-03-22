@@ -2,7 +2,9 @@ import {Store} from './store';
 
 export const SmythsToys: Store = {
   currency: '£',
+  lowBandwidth: false,
   labels: {
+
     inStock: {
       container: '#addToCartButton',
       text: ['add to basket'],

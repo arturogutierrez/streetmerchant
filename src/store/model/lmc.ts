@@ -3,7 +3,9 @@ import {Store} from './store';
 export const LandmarkComputers: Store = {
   backoffStatusCodes: [403, 429],
   currency: '$',
+  lowBandwidth: false,
   labels: {
+
     inStock: {
       container: '.stock-info-message',
       text: ['In Stock', 'Low In Stock', 'Stock in warehouse'],

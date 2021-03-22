@@ -2,7 +2,9 @@ import {Store} from './store';
 
 export const Euronics: Store = {
   currency: '€',
+  lowBandwidth: false,
   labels: {
+
     inStock: {
       container: '.purchaseButtonsWidth',
       text: ['Aggiungi al carrello'],

@@ -2,7 +2,9 @@ import {Store} from './store';
 
 export const Medimax: Store = {
   currency: '€',
+  lowBandwidth: false,
   labels: {
+
     inStock: [
       {
         container: '.product-cart-add-to-cart-button',

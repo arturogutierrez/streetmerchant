@@ -2,7 +2,9 @@ import {Store} from './store';
 
 export const GamestopCA: Store = {
   currency: '$',
+  lowBandwidth: false,
   labels: {
+
     maxPrice: {
       container: '.singleVariantText .prodPriceCont',
     },

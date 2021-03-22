@@ -57,8 +57,8 @@ function nextProxy(store: Store) {
   return store.proxyList[store.currentProxyIndex];
 }
 
-async function handleLowBandwidth(request: HTTPRequest) {
-  if (!config.browser.lowBandwidth) {
+async function handleLowBandwidth(request: HTTPRequest, store: Store) {
+  if (!store.lowBandwidth) {
     return false;
   }
 
@@ -187,7 +187,7 @@ async function lookup(browser: Browser, store: Store) {
 
     const proxy = nextProxy(store);
 
-    const useAdBlock = !config.browser.lowBandwidth && !store.disableAdBlocker;
+    const useAdBlock = !store.disableAdBlocker;
     const customContext = config.browser.isIncognito;
 
     const context = customContext
@@ -230,7 +230,7 @@ async function lookup(browser: Browser, store: Store) {
 
     await page.setRequestInterception(true);
     page.on('request', async request => {
-      if (await handleLowBandwidth(request)) {
+      if (await handleLowBandwidth(request, store)) {
         return;
       }
 
@@ -295,7 +295,7 @@ async function lookup(browser: Browser, store: Store) {
     // used to detect bot traffic, it introduces a 5 second page delay
     // before redirecting to the next page
     await processBackoffDelay(store, link, statusCode);
-    await closePage(page);
+    await closePage(page, store);
     if (customContext) {
       await context.close();
     }

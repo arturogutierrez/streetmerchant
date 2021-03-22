@@ -3,7 +3,9 @@ import {Store} from './store';
 export const AmazonDeWarehouse: Store = {
   backoffStatusCodes: [403, 429, 503],
   currency: '€',
+  lowBandwidth: false,
   labels: {
+
     captcha: {
       container: 'body',
       text: [

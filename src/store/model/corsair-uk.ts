@@ -2,7 +2,9 @@ import {Store} from './store';
 
 export const CorsairUK: Store = {
   currency: '£',
+  lowBandwidth: false,
   labels: {
+
     inStock: {
       container: '#addToCartForm',
       text: ['add to cart'],

@@ -2,7 +2,9 @@ import {Store} from './store';
 
 export const BestBuy: Store = {
   currency: '$',
+  lowBandwidth: false,
   labels: {
+
     inStock: {
       container: '[data-sticky-media-gallery] .fulfillment-add-to-cart-button',
       text: ['add to cart'],
