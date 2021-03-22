@@ -35,6 +35,7 @@ import {Aria} from './aria';
 import {Arlt} from './arlt';
 import {Asus} from './asus';
 import {AsusDe} from './asus-de';
+import {Aussar} from './aussar';
 import {AsusEs} from './asus-es';
 import {Awd} from './awd';
 import {Azerty} from './azerty';
@@ -206,6 +207,7 @@ export const storeList = new Map([
   [Arlt.name, Arlt],
   [Asus.name, Asus],
   [AsusDe.name, AsusDe],
+  [Aussar.name, Aussar],
   [AsusEs.name, AsusEs],
   [Awd.name, Awd],
   [Azerty.name, Azerty],
