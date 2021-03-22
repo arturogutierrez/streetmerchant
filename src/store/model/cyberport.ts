@@ -2,7 +2,9 @@ import {Store} from './store';
 
 export const Cyberport: Store = {
   currency: '€',
+  lowBandwidth: false,
   labels: {
+
     inStock: {
       container: '.tooltipAvailabilityParent',
       text: ['sofort verfügbar'],

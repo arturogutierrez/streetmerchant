@@ -3,7 +3,9 @@ import {Store} from './store';
 export const Bpctech: Store = {
   backoffStatusCodes: [403, 429],
   currency: '$',
+  lowBandwidth: false,
   labels: {
+
     inStock: {
       container: '.productStockStatus',
       text: ['in stock'],

@@ -2,7 +2,9 @@ import {Store} from './store';
 
 export const AmazonNl: Store = {
   currency: '€',
+  lowBandwidth: false,
   labels: {
+
     captcha: {
       container: 'body',
       text: ['voer de karakters in die u hieronder ziet'],

@@ -2,7 +2,9 @@ import {Store} from './store';
 
 export const BestBuyCa: Store = {
   currency: '$',
+  lowBandwidth: false,
   labels: {
+
     maxPrice: {
       container: 'div[class*="pricingContainer"]',
       euroFormat: false,

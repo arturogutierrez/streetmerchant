@@ -2,7 +2,9 @@ import {Store} from './store';
 
 export const EvgaEu: Store = {
   currency: '€',
+  lowBandwidth: false,
   labels: {
+
     inStock: {
       container: '.product-buy-specs',
       text: ['add to cart'],

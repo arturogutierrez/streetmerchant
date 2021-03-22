@@ -2,7 +2,9 @@ import {Store} from './store';
 
 export const NvidiaDE: Store = {
   currency: '€',
+  lowBandwidth: false,
   labels: {
+
     inStock: {
       container: '.buy',
       text: ['In den Einkaufswagen', 'JETZT KAUFEN'],

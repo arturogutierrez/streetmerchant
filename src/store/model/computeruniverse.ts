@@ -2,7 +2,9 @@ import {Store} from './store';
 
 export const Computeruniverse: Store = {
   currency: '€',
+  lowBandwidth: false,
   labels: {
+
     inStock: {
       container: '.availability',
       text: [

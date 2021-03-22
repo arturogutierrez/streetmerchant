@@ -2,7 +2,9 @@ import {Store} from './store';
 
 export const Elkjop: Store = {
   currency: 'kr.',
+  lowBandwidth: false,
   labels: {
+
     inStock: {
       container:
         '#product-detail-wrapper > div.col.any-5-12.M-2-5.information > div.buy-button-container.align-left.any-1-1.table-btn > div > div > div.product-price-button-wrap > div > div > span > span',

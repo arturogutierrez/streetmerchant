@@ -3,7 +3,9 @@ import {Store} from './store';
 export const PBTech: Store = {
   backoffStatusCodes: [403, 429],
   currency: '$',
+  lowBandwidth: false,
   labels: {
+
     inStock: [
       {
         container:

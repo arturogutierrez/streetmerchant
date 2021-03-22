@@ -2,7 +2,9 @@ import {Store} from './store';
 
 export const Globaldata: Store = {
   currency: '€',
+  lowBandwidth: false,
   labels: {
+
     inStock: {
       container:
         'body > main > div.main-container > div.container.mb-5 > div.row.align-items-lg-start.z-above-pattern > ck-product-cta-box > div > div.d-flex.mt-4 > div.w-100 > ck-addto-cart-wrapper > form > div > div.w-100.pl-3 > button > span',

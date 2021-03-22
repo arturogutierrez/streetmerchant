@@ -3,7 +3,9 @@ import {Store} from './store';
 export const BAndH: Store = {
   backoffStatusCodes: [403, 429],
   currency: '$',
+  lowBandwidth: false,
   labels: {
+
     inStock: {
       container: 'div[data-selenium="addToCartSection"]',
       text: ['add to cart'],

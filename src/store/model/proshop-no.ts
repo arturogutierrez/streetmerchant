@@ -2,7 +2,9 @@ import {Store} from './store';
 
 export const ProshopNO: Store = {
   currency: 'kr.',
+  lowBandwidth: false,
   labels: {
+
     inStock: {
       container: '.site-stock',
       text: ['1-3 dager til levering', 'Fjernlager'],

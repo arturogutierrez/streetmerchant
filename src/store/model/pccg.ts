@@ -3,7 +3,9 @@ import {Store} from './store';
 export const Pccg: Store = {
   backoffStatusCodes: [403, 429],
   currency: '$',
+  lowBandwidth: false,
   labels: {
+
     inStock: {
       container: 'div.price-box > div.stock-label',
       text: ['IN STOCK'],

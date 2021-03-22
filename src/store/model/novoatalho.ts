@@ -2,7 +2,9 @@ import {Store} from './store';
 
 export const NovoAtalho: Store = {
   currency: '€',
+  lowBandwidth: false,
   labels: {
+
     inStock: {
       container:
         'div.line > div.pull-left > div.stockpadding > span.stock > b > a',

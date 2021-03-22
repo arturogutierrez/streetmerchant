@@ -3,7 +3,9 @@ import {Store} from './store';
 export const RosmanMelb: Store = {
   backoffStatusCodes: [403, 429],
   currency: '$',
+  lowBandwidth: false,
   labels: {
+
     inStock: {
       container:
         '#Availability > div > table > tbody > tr:nth-child(2) > td:nth-child(1)',

@@ -2,7 +2,9 @@ import {Store} from './store';
 
 export const CanadaComputers: Store = {
   currency: '$',
+  lowBandwidth: false,
   labels: {
+
     inStock: {
       container: 'div[class="pi-prod-availability"]',
       text: ['Online In Stock'],

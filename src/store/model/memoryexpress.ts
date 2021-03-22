@@ -2,7 +2,9 @@ import {Store} from './store';
 
 export const MemoryExpress: Store = {
   currency: '$',
+  lowBandwidth: false,
   labels: {
+
     maxPrice: {
       container:
         '#ProductPricing .GrandTotal.c-capr-pricing__grand-total > div',

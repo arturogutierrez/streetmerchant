@@ -2,7 +2,9 @@ import {Store} from './store';
 
 export const Alternate: Store = {
   currency: '€',
+  lowBandwidth: false,
   labels: {
+
     inStock: {
       container: '.stockStatus',
       text: [

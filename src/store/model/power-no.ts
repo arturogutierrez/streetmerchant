@@ -2,7 +2,9 @@ import {Store} from './store';
 
 export const PowerNO: Store = {
   currency: 'kr.',
+  lowBandwidth: false,
   labels: {
+
     inStock: {
       container:
         '#product-intro > div.container.old-product-page.ng-star-inserted > div > div > div.col-md-7 > div > div.product-control > div.buy-area.ng-star-inserted > div.buy-area__webshop > button',

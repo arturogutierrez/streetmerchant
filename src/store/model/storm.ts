@@ -3,7 +3,9 @@ import {Store} from './store';
 export const StormComputers: Store = {
   backoffStatusCodes: [403, 429],
   currency: '$',
+  lowBandwidth: false,
   labels: {
+
     inStock: {
       container: 'div.summary.entry-summary > form > button',
       text: ['ADD TO CART'],

@@ -3,7 +3,9 @@ import fetch from 'node-fetch';
 
 export const PlayStation: Store = {
   currency: '$',
+  lowBandwidth: false,
   labels: {
+
     inStock: [
       {
         container: '.productHero-desc .add-to-cart:not(.hide)',

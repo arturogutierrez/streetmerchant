@@ -2,7 +2,9 @@ import {Store} from './store';
 
 export const Galaxus: Store = {
   currency: '€',
+  lowBandwidth: false,
   labels: {
+
     inStock: {
       container: '#addToCartButton:enabled',
       text: ['In den Warenkorb'],

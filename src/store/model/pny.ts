@@ -2,7 +2,9 @@ import {Store} from './store';
 
 export const Pny: Store = {
   currency: '$',
+  lowBandwidth: false,
   labels: {
+
     inStock: {
       container: '#ctl01_lbtnAddToCart',
       text: ['add to cart'],

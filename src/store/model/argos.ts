@@ -2,7 +2,9 @@ import {Store} from './store';
 
 export const Argos: Store = {
   currency: '£',
+  lowBandwidth: false,
   labels: {
+
     inStock: {
       container: 'button[data-test="add-to-trolley-button-button"',
       text: ['to trolley'],

@@ -14,7 +14,9 @@ const link: Link = {
 
 const store: Store = {
   currency: '',
+  lowBandwidth: false,
   labels: {
+
     inStock: {
       container: 'test:container',
       text: ['test:text'],

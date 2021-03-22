@@ -342,7 +342,9 @@ for (const microCenterLocation of microCenterLocations) {
 
 export const MicroCenter: Store = {
   currency: '$',
+  lowBandwidth: false,
   labels: {
+
     inStock: {
       container: '#pnlInventory',
       text: ['in stock'],

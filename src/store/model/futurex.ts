@@ -2,7 +2,9 @@ import {Store} from './store';
 
 export const Futurex: Store = {
   currency: '€',
+  lowBandwidth: false,
   labels: {
+
     inStock: {
       container: '.productPriceInner',
       text: ['Auf Lager'],

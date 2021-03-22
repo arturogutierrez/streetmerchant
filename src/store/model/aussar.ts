@@ -2,7 +2,9 @@ import {Store} from './store';
 
 export const Aussar: Store = {
   currency: '€',
+  lowBandwidth: true,
   labels: {
+
     inStock: {
       container: '#product-availability',
       text: ['Entrega'],

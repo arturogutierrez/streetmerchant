@@ -3,7 +3,9 @@ import {getProductLinksBuilder} from './helpers/card';
 
 export const Currys: Store = {
   currency: '£',
+  lowBandwidth: false,
   labels: {
+
     inStock: {
       container: '#product-actions button',
       text: ['add to basket'],

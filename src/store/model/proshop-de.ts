@@ -2,7 +2,9 @@ import {Store} from './store';
 
 export const ProshopDE: Store = {
   currency: '€',
+  lowBandwidth: false,
   labels: {
+
     inStock: {
       container: 'button[data-form-action="addToBasket"]',
       text: ['bestellen'],

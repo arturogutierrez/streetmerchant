@@ -2,7 +2,9 @@ import {Store} from './store';
 
 export const Unieuro: Store = {
   currency: '€',
+  lowBandwidth: false,
   labels: {
+
     captcha: {
       container: 'body',
       text: ['Too Many Requests.'],

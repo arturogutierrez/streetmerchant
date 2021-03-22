@@ -2,7 +2,9 @@ import {Store} from './store';
 
 export const Drako: Store = {
   currency: '€',
+  lowBandwidth: false,
   labels: {
+
     inStock: [
       {
         container: '#bottom_left_panel > div:nth-child(9) > div:nth-child(2)',

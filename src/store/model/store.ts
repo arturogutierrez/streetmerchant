@@ -215,6 +215,7 @@ export type Store = {
    */
   backoffStatusCodes?: StatusCodeRangeArray;
   disableAdBlocker?: boolean;
+  lowBandwidth?: boolean;
   links: Link[];
   linksBuilder?: {
     builder: (docElement: cheerio.Cheerio, series: Series) => Link[];

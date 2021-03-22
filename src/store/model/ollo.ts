@@ -2,7 +2,9 @@ import {Store} from './store';
 
 export const Ollo: Store = {
   currency: '€',
+  lowBandwidth: false,
   labels: {
+
     inStock: [
       {
         container:

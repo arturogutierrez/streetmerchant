@@ -2,7 +2,9 @@ import {Store} from './store';
 
 export const DustinHomeNO: Store = {
   currency: 'kr.',
+  lowBandwidth: false,
   labels: {
+
     inStock: {
       container:
         'div.c-product-main-info > div.c-product-buy-wrapper > div.u-pt-16.u-relative.d-flex > div > span',

@@ -3,7 +3,9 @@ import {Store} from './store';
 export const PCByte: Store = {
   backoffStatusCodes: [403, 429],
   currency: '$',
+  lowBandwidth: false,
   labels: {
+
     inStock: {
       container: '.in-stock-label',
       text: ['in stock'],

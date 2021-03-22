@@ -3,7 +3,9 @@ import {Store} from './store';
 export const Cpl: Store = {
   backoffStatusCodes: [403, 429],
   currency: '$',
+  lowBandwidth: false,
   labels: {
+
     inStock: {
       container:
         'div.product-stock > table > tbody > tr:nth-child(1) > td.stock-value',

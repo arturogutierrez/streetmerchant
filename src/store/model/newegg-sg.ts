@@ -3,7 +3,9 @@ import fetch from 'node-fetch';
 
 export const NeweggSg: Store = {
   currency: '$',
+  lowBandwidth: false,
   labels: {
+
     captcha: {
       container: 'body',
       text: ['are you a human?'],

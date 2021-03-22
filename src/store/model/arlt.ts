@@ -2,7 +2,9 @@ import {Store} from './store';
 
 export const Arlt: Store = {
   currency: '€',
+  lowBandwidth: false,
   labels: {
+
     inStock: {
       container: '.articleDesc .shippingtext',
       text: ['auf Lager', 'Lieferzeit 2-3 Werktage', 'Ware im Zulauf'],

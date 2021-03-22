@@ -2,7 +2,9 @@ import {Store} from './store';
 
 export const Kabum: Store = {
   currency: 'R$',
+  lowBandwidth: false,
   labels: {
+
     inStock: {
       container: '.botao-comprar',
       text: ['comprar'],

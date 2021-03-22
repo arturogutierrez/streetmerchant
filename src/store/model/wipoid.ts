@@ -2,7 +2,9 @@ import {Store} from './store';
 
 export const Wipoid: Store = {
   currency: '$',
+  lowBandwidth: false,
   labels: {
+
     inStock: {
       container: '#add_to_cart',
       text: ['COMPRAR'],

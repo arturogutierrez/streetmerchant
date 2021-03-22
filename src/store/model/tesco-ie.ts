@@ -2,7 +2,9 @@ import {Store} from './store';
 
 export const TescoIE: Store = {
   currency: '€',
+  lowBandwidth: false,
   labels: {
+
     inStock: {
       container: 'input.submit:nth-child(5)',
       text: ['add'],

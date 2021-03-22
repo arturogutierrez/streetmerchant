@@ -3,7 +3,9 @@ import {Store} from './store';
 export const Evatech: Store = {
   backoffStatusCodes: [403, 429],
   currency: '$',
+  lowBandwidth: false,
   labels: {
+
     inStock: {
       container: '.product_detail_add_to_cart > span:nth-child(2)',
       text: ['ADD TO CART'],

@@ -2,7 +2,9 @@ import {Store} from './store';
 
 export const Coolblue: Store = {
   currency: '€',
+  lowBandwidth: false,
   labels: {
+
     inStock: {
       container: '.product-order',
       text: ['bestel snel', 'morgen in huis'],

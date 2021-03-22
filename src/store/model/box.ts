@@ -4,7 +4,9 @@ import {getProductLinksBuilder} from './helpers/card';
 export const Box: Store = {
   backoffStatusCodes: [403, 429, 503],
   currency: '£',
+  lowBandwidth: false,
   labels: {
+
     inStock: {
       container: '#divBuyButton',
       text: ['add to basket'],

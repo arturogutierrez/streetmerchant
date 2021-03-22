@@ -2,7 +2,9 @@ import {Store} from './store';
 
 export const PCDiga: Store = {
   currency: '€',
+  lowBandwidth: false,
   labels: {
+
     inStock: {
       container: '#product-addtocart-button > span',
       text: ['Adicionar ao carrinho'],

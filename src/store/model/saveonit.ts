@@ -3,7 +3,9 @@ import {Store} from './store';
 export const SaveOnIt: Store = {
   backoffStatusCodes: [403, 429],
   currency: '$',
+  lowBandwidth: false,
   labels: {
+
     inStock: {
       container: '.supplier',
       text: ['In Stock', '1', '2', '3', '4', '5', '6', '7', '8', '9'],
