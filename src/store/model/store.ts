@@ -143,6 +143,7 @@ export type Model =
   | 'strix'
   | 'strix oc white'
   | 'strix white'
+  | 'suprim x'
   | 'taichi'
   | 'trinity oc'
   | 'trinity'

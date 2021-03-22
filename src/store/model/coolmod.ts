@@ -242,6 +242,13 @@ export const Coolmod: Store = {
         'https://www.coolmod.com/msi-geforce-rtx-3070-ventus-2x-oc-8gb-gddr6-tarjeta-grafica-precio',
     },
     {
+      brand: 'msi',
+      model: 'suprim x',
+      series: '3080',
+      url:
+        'https://www.coolmod.com/msi-geforce-rtx-3080-suprim-x-10gb-gddr6x-tarjeta-grafica-precio',
+    },
+    {
       brand: 'evga',
       model: 'xc3',
       series: '3070',
