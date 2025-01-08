@@ -295,7 +295,7 @@ async function lookup(browser: Browser, store: Store) {
     // used to detect bot traffic, it introduces a 5 second page delay
     // before redirecting to the next page
     await processBackoffDelay(store, link, statusCode);
-    await closePage(page, store);
+    await closePage(page);
     if (customContext) {
       await context.close();
     }
