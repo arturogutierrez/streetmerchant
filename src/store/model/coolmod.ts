@@ -1,12 +1,11 @@
 import {Store} from './store';
-import {getProductLinksBuilder} from './helpers/card';
 
 export const Coolmod: Store = {
   currency: '€',
   labels: {
     inStock: {
-      container: '#productBuyButtons',
-      text: ['COMPRAR'],
+      container: '#product > div > div > div > button',
+      text: ['Añadir a la cesta'],
     },
     maxPrice: {
       container: '#normalpricenumber',
@@ -22,7 +21,7 @@ export const Coolmod: Store = {
       brand: 'test:brand',
       model: 'test:model',
       series: 'test:series',
-      url: 'https://www.coolmod.com/kfa2-geforce-rtx-2060-super-1-click-oc-8gb-gddr6-tarjeta-grafica-precio',
+      url: 'https://www.coolmod.com/powercolor-radeon-rx-7900-xtx-hell-hound-oc-24gb-gddr6/',
     },
     {
       brand: 'amd',
@@ -48,45 +47,144 @@ export const Coolmod: Store = {
       series: 'ryzen5950',
       url: 'https://www.coolmod.com/amd-ryzen-9-5950x-49ghz-socket-am4-boxed-procesador-precio',
     },
+    {
+      brand: 'gigabyte',
+      model: 'aorus xtreme waterforce wb',
+      series: '5090',
+      url: 'https://www.coolmod.com/gigabyte-aorus-geforce-rtx-5090-xtreme-waterforce-wb-32gb-gddr7/',
+    },
+    {
+      brand: 'gigabyte',
+      model: 'rog astral',
+      series: '5090',
+      url: 'https://www.coolmod.com/asus-rog-astral-geforce-rtx-5090-gaming-32gb-gddr7/',
+    },
+    {
+      brand: 'gigabyte',
+      model: 'aorus xtreme waterforce',
+      series: '5090',
+      url: 'https://www.coolmod.com/gigabyte-aorus-geforce-rtx-5090-xtreme-waterforce-32gb-gddr7/',
+    },
+    {
+      brand: 'gigabyte',
+      model: 'aorus master ice',
+      series: '5090',
+      url: 'https://www.coolmod.com/gigabyte-aorus-geforce-rtx-5090-master-ice-32gb-gddr7/',
+    },
+    {
+      brand: 'msi',
+      model: 'ventus 3x oc',
+      series: '5090',
+      url: 'https://www.coolmod.com/msi-geforce-rtx-5090-ventus-3x-oc-32gb-gddr7/',
+    },
+    {
+      brand: 'asus',
+      model: 'tuf',
+      series: '5090',
+      url: 'https://www.coolmod.com/asus-tuf-gaming-geforce-rtx-5090-32gb-gddr7/',
+    },
+    {
+      brand: 'gigabyte',
+      model: 'aorus master',
+      series: '5090',
+      url: 'https://www.coolmod.com/gigabyte-aorus-geforce-rtx-5090-master-32gb-gddr7/',
+    },
+    {
+      brand: 'gigabyte',
+      model: 'windforce oc',
+      series: '5090',
+      url: 'https://www.coolmod.com/gigabyte-geforce-rtx-5090-windforce-oc-32gb-gddr7/',
+    },
+    {
+      brand: 'gigabyte',
+      model: 'oc',
+      series: '5090',
+      url: 'https://www.coolmod.com/gigabyte-geforce-rtx-5090-gaming-oc-32gb-gddr7/',
+    },
+    {
+      brand: 'inno3d',
+      model: 'x3',
+      series: '5090',
+      url: 'https://www.coolmod.com/inno3d-geforce-rtx-5090-x3-32gb-gddr7/',
+    },
+    {
+      brand: 'inno3d',
+      model: 'ichill x3',
+      series: '5090',
+      url: 'https://www.coolmod.com/inno3d-geforce-rtx-5090-ichill-x3-32gb-gddr7/',
+    },
+    {
+      brand: 'inno3d',
+      model: 'ichill frostbite',
+      series: '5090',
+      url: 'https://www.coolmod.com/inno3d-geforce-rtx-5090-ichill-frostbite-32gb-gddr7/',
+    },
+    {
+      brand: 'msi',
+      model: 'suprim soc',
+      series: '5090',
+      url: 'https://www.coolmod.com/msi-geforce-rtx-5090-suprim-soc-32gb-gddr7/',
+    },
+    {
+      brand: 'zotac',
+      model: 'solid',
+      series: '5090',
+      url: 'https://www.coolmod.com/zotac-gaming-geforce-rtx-5090-solid-32gb-gddr7/',
+    },
+    {
+      brand: 'asus',
+      model: 'tuf oc',
+      series: '5090',
+      url: 'https://www.coolmod.com/asus-tuf-gaming-geforce-rtx-5090-oc-32gb-gddr7/',
+    },
+    {
+      brand: 'asus',
+      model: 'rog astral',
+      series: '5090',
+      url: 'https://www.coolmod.com/asus-rog-astral-lc-geforce-rtx-5090-oc-gaming-32gb-gddr7/',
+    },
+    {
+      brand: 'asus',
+      model: 'rog astral',
+      series: '5090',
+      url: 'https://www.coolmod.com/asus-rog-astral-lc-geforce-rtx-5090-gaming-32gb-gddr7/',
+    },
+    {
+      brand: 'asus',
+      model: 'rog astral',
+      series: '5090',
+      url: 'https://www.coolmod.com/asus-rog-astral-geforce-rtx-5090-oc-gaming-32gb-gddr7/',
+    },
+    {
+      brand: 'zotac',
+      model: 'amp extreme infinity',
+      series: '5090',
+      url: 'https://www.coolmod.com/zotac-gaming-geforce-rtx-5090-amp-extreme-infinity-32gb-gddr7/',
+    },
+    {
+      brand: 'zotac',
+      model: 'solid oc',
+      series: '5090',
+      url: 'https://www.coolmod.com/zotac-gaming-geforce-rtx-5090-solid-oc-32gb-gddr7/',
+    },
+    {
+      brand: 'msi',
+      model: 'gaming trio',
+      series: '5090',
+      url: 'https://www.coolmod.com/msi-geforce-rtx-5090-gaming-trio-oc-32gb-gddr7/',
+    },
+    {
+      brand: 'msi',
+      model: 'suprim liquid soc',
+      series: '5090',
+      url: 'https://www.coolmod.com/msi-geforce-rtx-5090-suprim-liquid-soc-32gb-gddr7/',
+    },
+    {
+      brand: 'msi',
+      model: 'ventus 3x oc',
+      series: '5090',
+      url: 'https://www.coolmod.com/msi-geforce-rtx-5090-ventus-3x-oc-32gb-gddr7/',
+    },
   ],
   name: 'coolmod',
-  linksBuilder: {
-    builder: getProductLinksBuilder({
-      productsSelector: '.productInfo.itemFiltered',
-      sitePrefix: 'https://www.coolmod.com/',
-      titleSelector: '.productName a',
-    }),
-    ttl: 1,
-    waitForSelector: '.productInfo.itemFiltered',
-    urls: [
-      {
-        series: '3060',
-        url: 'https://www.coolmod.com/tarjetas-graficas/appliedfilters/9678',
-      },
-      {
-        series: '3060ti',
-        url: 'https://www.coolmod.com/tarjetas-graficas/appliedfilters/9674',
-      },
-      {
-        series: '3070',
-        url: 'https://www.coolmod.com/tarjetas-graficas/appliedfilters/9675',
-      },
-      {
-        series: '3070ti',
-        url: 'https://www.coolmod.com/tarjetas-graficas/appliedfilters/9727',
-      },
-      {
-        series: '3080',
-        url: 'https://www.coolmod.com/tarjetas-graficas/appliedfilters/9676',
-      },
-      {
-        series: '3080ti',
-        url: 'https://www.coolmod.com/tarjetas-graficas/appliedfilters/9728',
-      },
-      {
-        series: '3090',
-        url: 'https://www.coolmod.com/tarjetas-graficas/appliedfilters/8557',
-      },
-    ],
-  },
 };

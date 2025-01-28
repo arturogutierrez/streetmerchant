@@ -4,8 +4,8 @@ export const LdlcEs: Store = {
   currency: '€',
   labels: {
     inStock: {
-      container: '#product-page-stock > div > div.content > div > span',
-      text: ['stock'],
+      container: '.modal-stock-web span',
+      text: ['disponible'],
     },
     maxPrice: {
       container:
@@ -892,6 +892,102 @@ export const LdlcEs: Store = {
       model: 'twin edge oc',
       series: '3070',
       url: 'https://www.ldlc.com/es-es/ficha/PB00383541.html',
+    },
+    {
+      brand: 'pny',
+      model: 'x3 oc',
+      series: '5090',
+      url: 'https://www.ldlc.com/es-es/ficha/PB00661434.html',
+    },
+    {
+      brand: 'asus',
+      model: 'tuf',
+      series: '5090',
+      url: 'https://www.ldlc.com/es-es/ficha/PB00663199.html',
+    },
+    {
+      brand: 'asus',
+      model: 'tuf oc',
+      series: '5090',
+      url: 'https://www.ldlc.com/es-es/ficha/PB00663200.html',
+    },
+    {
+      brand: 'asus',
+      model: 'rog astral',
+      series: '5090',
+      url: 'https://www.ldlc.com/es-es/ficha/PB00663198.html',
+    },
+    {
+      brand: 'asus',
+      model: 'rog astral',
+      series: '5090',
+      url: 'https://www.ldlc.com/es-es/ficha/PB00662466.html',
+    },
+    {
+      brand: 'gigabyte',
+      model: 'aorus master',
+      series: '5090',
+      url: 'https://www.ldlc.com/es-es/ficha/PB00662770.html',
+    },
+    {
+      brand: 'gigabyte',
+      model: 'aorus master',
+      series: '5090',
+      url: 'https://www.ldlc.com/es-es/ficha/PB00662769.html',
+    },
+    {
+      brand: 'gigabyte',
+      model: 'windforce oc',
+      series: '5090',
+      url: 'https://www.ldlc.com/es-es/ficha/PB00662767.html',
+    },
+    {
+      brand: 'gigabyte',
+      model: 'gaming oc',
+      series: '5090',
+      url: 'https://www.ldlc.com/es-es/ficha/PB00662765.html',
+    },
+    {
+      brand: 'gigabyte',
+      model: 'phantom',
+      series: '5090',
+      url: 'https://www.ldlc.com/es-es/ficha/PB00662760.html',
+    },
+    {
+      brand: 'msi',
+      model: 'vanguard soc launch edition',
+      series: '5090',
+      url: 'https://www.ldlc.com/es-es/ficha/PB00661918.html',
+    },
+    {
+      brand: 'msi',
+      model: 'suprim liquid soc',
+      series: '5090',
+      url: 'https://www.ldlc.com/es-es/ficha/PB00661916.html',
+    },
+    {
+      brand: 'msi',
+      model: 'suprim soc',
+      series: '5090',
+      url: 'https://www.ldlc.com/es-es/ficha/PB00661914.html',
+    },
+    {
+      brand: 'msi',
+      model: 'gaming trio',
+      series: '5090',
+      url: 'https://www.ldlc.com/es-es/ficha/PB00661912.html',
+    },
+    {
+      brand: 'msi',
+      model: 'ventus 3x oc',
+      series: '5090',
+      url: 'https://www.ldlc.com/es-es/ficha/PB00661910.html',
+    },
+    {
+      brand: 'pny',
+      model: 'x3 oc',
+      series: '5090',
+      url: 'https://www.ldlc.com/es-es/ficha/PB00661436.html',
     },
   ],
   name: 'ldlc-es',
