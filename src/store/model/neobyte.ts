@@ -4,7 +4,7 @@ export const NeoByte: Store = {
   currency: '€',
   labels: {
     inStock: {
-      container: '#add_to_cart > button',
+      container: 'div.add > .add-to-cart:not([disabled])',
       text: ['Añadir al carrito'],
     },
     maxPrice: {
@@ -12,8 +12,8 @@ export const NeoByte: Store = {
       euroFormat: true,
     },
     outOfStock: {
-      container: '#availability_value',
-      text: ['No Disponible'],
+      container: 'input',
+      text: ['Avísame cuando esté disponible'],
     },
   },
   links: [
@@ -21,7 +21,7 @@ export const NeoByte: Store = {
       brand: 'test:brand',
       model: 'test:model',
       series: 'test:series',
-      url: 'https://www.neobyte.es/grafica-asus-gt1030-sl-2g-brk-1647.html',
+      url: 'https://www.neobyte.es/gigabyte-rtx-4070-ti-super-gaming-oc-16gb-gddr6x-dlss3-tarjeta-grafica-20242.html',
     },
     // 3090
     {
@@ -327,6 +327,126 @@ export const NeoByte: Store = {
       model: 'strix white',
       series: '3070',
       url: 'https://www.neobyte.es/tarjeta-grafica-asus-rog-strix-geforce-rtx-3070-white-edition-8523.html',
+    },
+    {
+      brand: 'asus',
+      model: 'rog astral',
+      series: '5090',
+      url: 'https://www.neobyte.es/asus-rog-astral-lc-geforce-rtx-5090-32gb-gddr7-oc-edition-dlss4-tarjeta-grafica-26796.html',
+    },
+    {
+      brand: 'asus',
+      model: 'rog astral',
+      series: '5090',
+      url: 'https://www.neobyte.es/asus-rog-astral-lc-geforce-rtx-5090-32gb-gddr7-dlss4-tarjeta-grafica-26795.html',
+    },
+    {
+      brand: 'asus',
+      model: 'tuf',
+      series: '5090',
+      url: 'https://www.neobyte.es/asus-tuf-gaming-geforce-rtx-5090-32gb-gddr7-dlss4-tarjeta-grafica-26793.html',
+    },
+    {
+      brand: 'asus',
+      model: 'tuf oc',
+      series: '5090',
+      url: 'https://www.neobyte.es/asus-tuf-gaming-geforce-rtx-5090-32gb-gddr7-oc-edition-dlss4-tarjeta-grafica-26791.html',
+    },
+    {
+      brand: 'asus',
+      model: 'rog astral',
+      series: '5090',
+      url: 'https://www.neobyte.es/asus-rog-astral-geforce-rtx-5090-32gb-gddr7-dlss4-tarjeta-grafica-26788.html',
+    },
+    {
+      brand: 'asus',
+      model: 'rog astral oc',
+      series: '5090',
+      url: 'https://www.neobyte.es/asus-rog-astral-geforce-rtx-5090-32gb-gddr7-oc-edition-dlss4-tarjeta-grafica-26785.html',
+    },
+    {
+      brand: 'pny',
+      model: 'epic x',
+      series: '5090',
+      url: 'https://www.neobyte.es/pny-geforce-rtx-5090-epic-x-rgb-oc-32gb-gddr7-dlss4-tarjeta-grafica-26547.html',
+    },
+    {
+      brand: 'pny',
+      model: 'epic x',
+      series: '5090',
+      url: 'https://www.neobyte.es/pny-geforce-rtx-5090-epic-x-rgb-32gb-gddr7-dlss4-tarjeta-grafica-26546.html',
+    },
+    {
+      brand: 'pny',
+      model: 'oc',
+      series: '5090',
+      url: 'https://www.neobyte.es/pny-geforce-rtx-5090-oc-32gb-gddr7-dlss4-tarjeta-grafica-26545.html',
+    },
+    {
+      brand: 'pny',
+      model: 'x trio',
+      series: '5090',
+      url: 'https://www.neobyte.es/pny-geforce-rtx-5090-32gb-gddr7-dlss4-tarjeta-grafica-26544.html',
+    },
+    {
+      brand: 'gigabyte',
+      model: 'windforce oc',
+      series: '5090',
+      url: 'https://www.neobyte.es/gigabyte-geforce-rtx-5090-windforce-oc-32gb-gddr7-dlss4-tarjeta-grafica-26506.html',
+    },
+    {
+      brand: 'gigabyte',
+      model: 'gaming oc',
+      series: '5090',
+      url: 'https://www.neobyte.es/gigabyte-geforce-rtx-5090-gaming-oc-32gb-gddr7-dlss4-tarjeta-grafica-26505.html',
+    },
+    {
+      brand: 'gigabyte',
+      model: 'aorus master',
+      series: '5090',
+      url: 'https://www.neobyte.es/gigabyte-aorus-rtx-5090-master-32gb-gddr7-dlss4-tarjeta-grafica-26501.html',
+    },
+    {
+      brand: 'zotac',
+      model: 'solid',
+      series: '5090',
+      url: 'https://www.neobyte.es/zotac-gaming-geforce-rtx-5090-solid-32gb-gddr7-dlss4-tarjeta-grafica-26380.html',
+    },
+    {
+      brand: 'zotac',
+      model: 'solid oc',
+      series: '5090',
+      url: 'https://www.neobyte.es/zotac-gaming-geforce-rtx-5090-solid-oc-32gb-gddr7-dlss4-tarjeta-grafica-26379.html',
+    },
+    {
+      brand: 'zotac',
+      model: 'amp extreme infinity',
+      series: '5090',
+      url: 'https://www.neobyte.es/zotac-geforce-rtx-5090-amp-extreme-infinity-32gb-gddr7-dlss4-tarjeta-grafica-26378.html',
+    },
+    {
+      brand: 'msi',
+      model: 'suprim liquid soc',
+      series: '5090',
+      url: 'https://www.neobyte.es/msi-geforce-rtx-5090-suprim-liquid-32gb-gddr7-dlss4-tarjeta-grafica-26941.html',
+    },
+    {
+      brand: 'msi',
+      model: 'gaming trio',
+      series: '5090',
+      url: 'https://www.neobyte.es/msi-geforce-rtx-5090-gaming-trio-oc-32gb-gddr7-dlss4-tarjeta-grafica-26942.html',
+    },
+    {
+      brand: 'msi',
+      model: 'suprim',
+      series: '5090',
+      url: 'https://www.neobyte.es/msi-geforce-rtx-5090-suprim-32gb-gddr7-dlss4-tarjeta-grafica-26955.html',
+    },
+    {
+      brand: 'msi',
+      model: 'ventus 3x',
+      series: '5090',
+      url: 'https://www.neobyte.es/msi-geforce-rtx-5090-ventus-3x-oc-32gb-gddr7-dlss4-tarjeta-grafica-26958.html',
     },
   ],
   name: 'neobyte',
