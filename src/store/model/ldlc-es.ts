@@ -22,7 +22,7 @@ export const LdlcEs: Store = {
       brand: 'test:brand',
       model: 'test:model',
       series: 'test:series',
-      url: 'https://www.ldlc.com/es-es/ficha/PB00223568.html',
+      url: 'https://www.ldlc.com/es-es/ficha/PB00569690.html',
     },
     // 3090
     {
