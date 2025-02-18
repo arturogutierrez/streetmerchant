@@ -4,11 +4,11 @@ export const PCComponentes: Store = {
   currency: '€',
   labels: {
     inStock: {
-      container: '#btnsWishAddBuy',
-      text: ['Comprar'],
+      container: '#pdp-add-to-cart > div',
+      text: ['Añadir al carrito'],
     },
     maxPrice: {
-      container: '#precio-main',
+      container: '#pdp-price-current-integer',
       euroFormat: true,
     },
     outOfStock: {
@@ -523,6 +523,42 @@ export const PCComponentes: Store = {
       model: 'tuf oc',
       series: 'rx6900xt',
       url: 'https://www.pccomponentes.com/asus-tuf-amd-radeon-rx-6900xt-oc-16gb-gddr6',
+    },
+    {
+      brand: 'asus',
+      model: 'tuf oc',
+      series: '5090',
+      url: 'https://www.pccomponentes.com/tarjeta-grafica-asus-tuf-gaming-geforce-rtx-5090-oc-32gb-gddr7-dlss4',
+    },
+    {
+      brand: 'asus',
+      model: 'rog astral oc',
+      series: '5090',
+      url: 'https://www.pccomponentes.com/tarjeta-grafica-asus-rog-astral-geforce-rtx-5090-oc-32gb-gddr7-dlss4',
+    },
+    {
+      brand: 'asus',
+      model: 'tuf',
+      series: '5090',
+      url: 'https://www.pccomponentes.com/tarjeta-grafica-asus-tuf-gaming-geforce-rtx-5090-32gb-gddr7-dlss4',
+    },
+    {
+      brand: 'asus',
+      model: 'rog astral oc lc',
+      series: '5090',
+      url: 'https://www.pccomponentes.com/tarjeta-grafica-asus-rog-astral-lc-geforce-rtx-5090-oc-32gb-gddr7-dlss4',
+    },
+    {
+      brand: 'pny',
+      model: 'x3',
+      series: '5090',
+      url: 'https://www.pccomponentes.com/tarjeta-grafica-pny-geforce-rtx-5090-argb-overclocked-triple-fan-32gb-gddr7-dlss4',
+    },
+    {
+      brand: 'msi',
+      model: 'suprim soc',
+      series: '5090',
+      url: 'https://www.pccomponentes.com/tarjeta-grafica-msi-geforce-rtx-5090-suprim-soc-32gb-gddr7-dlss4',
     },
   ],
   name: 'pccomponentes',

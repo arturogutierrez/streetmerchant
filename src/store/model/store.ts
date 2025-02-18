@@ -222,6 +222,8 @@ export type Model =
   | 'red dragon'
   | 'rog astral'
   | 'rog astral oc'
+  | 'rog astral oc lc'
+  | 'rog astral lc'
   | 'sf1000'
   | 'sg oc'
   | 'sg'
